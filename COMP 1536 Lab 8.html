@@ -2,11 +2,10 @@
   <html lang="eng">
     <head>
       <title>Home Page</title>
-      <link rel="stylesheet" href="logo.css"> <!--Nav-bar CSS Sheet-->
       <style>
         @import url(https://fonts.googleapis.com/css?family=Heebo);
         body{
-          background:url(road2.jpeg) no-repeat center center fixed;
+          background:url(heat.jpg) no-repeat center center fixed;
           -webkit-background-size: cover;
           -moz-background-size: cover;
           -o-background-size: cover;
@@ -234,6 +233,14 @@
           }
         }
       </style>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script>
+            $(document).ready(function(){
+                $("#features").click(function(){
+                    $(".descript").text("hello");
+                });
+            });
+            </script>
       </head>
     
       <body>
@@ -256,13 +263,13 @@
               Sign-Up
             </div>
             <div id="signedIn">
-              My Account
-              Edit Preferences
+              <a>My Account</a>
+              <a>Edit Preferences</a>
             </div>
           </div>
         </div>
         <div class="dropdown">
-          <button class="dropbtn"><img src="featureslogo.png" alt="Features" title="Features">
+          <button class="dropbtn"><img src="featureslogo.png" alt="Features" title="Features" id="features">
           </button>
           <div id="featureDrop" class="dropdown-content">
             US Savings Calculator
