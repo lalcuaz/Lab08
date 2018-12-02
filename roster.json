@@ -1,0 +1,52 @@
+[
+  {
+    "player" : "Bam adebayo",
+    "number" : "13",
+    "position" : "Center-Forward"
+  },
+  {
+    "player" : "Goran Dragic",
+    "number" : "7",
+    "position" : "Guard" 
+  },
+  {
+    "player" : "Wayne Ellington",
+    "number" : "2",
+    "position" : "Guard" 
+  },
+  {
+    "player" : "Udonis Haslem",
+    "number" : "40",
+    "position" : "Forward"
+  },
+  {
+    "player" : "James Johnson",
+    "number" : "16",
+    "position" : "Forward" 
+  },
+  {
+    "player" : "Tyler Johnson",
+    "number" : "8",
+    "position" : "Guard" 
+  },
+  {
+    "player" : "Yante Maten",
+    "number" : "00",
+    "position" : "Forward"
+  },
+  {
+    "player" : "Derrick Jones Jr.",
+    "number" : "5",
+    "position" : "Forward-Guard" 
+  },
+  {
+    "player" : "Rodney McGruder",
+    "number" : "17",
+    "position" : "Forward-Guard" 
+  },
+  {
+    "player" : "Dwyane Wade",
+    "number" : "3",
+    "position" : "Guard"
+  }
+]
